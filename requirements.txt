@@ -1,0 +1,10 @@
+# requirements.txt
+# Cố ý pin phiên bản CŨ của các thư viện phổ biến để test SCA (Trivy / OSV-Scanner).
+# Các phiên bản dưới đây đều có CVE đã công bố.
+
+Flask==0.12.2
+Jinja2==2.10
+PyYAML==5.1
+requests==2.19.1
+urllib3==1.24.1
+Django==2.0.1
